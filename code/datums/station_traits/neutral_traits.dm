@@ -60,10 +60,6 @@
 	report_message = "Please be nice to him."
 	blacklist = list(/datum/station_trait/announcement_medbot)
 
-/datum/station_trait/announcement_intern/New()
-	. = ..()
-	SSstation.announcer = /datum/centcom_announcer/intern
-
 /datum/station_trait/announcement_medbot
 	name = "Announcement \"System\""
 	trait_type = STATION_TRAIT_NEUTRAL
