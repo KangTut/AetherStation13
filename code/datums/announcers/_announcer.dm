@@ -1,4 +1,4 @@
-///Data holder for the announcers that can be used in a game, this can be used to have alternative announcements outside of the default e.g.the intern
+///Data holder for the announcers that can be used in a game, this can be used to have alternative announcements outside of the default
 /datum/centcom_announcer
 	///Roundshift start audio
 	var/welcome_sounds = list()
